@@ -1,5 +1,6 @@
 package pkg_car.java;
 
+//Car class
 public class car {
     //instance variables
     private String model;
