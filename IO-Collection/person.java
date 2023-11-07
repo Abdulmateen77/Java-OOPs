@@ -42,6 +42,7 @@ public class person {
         this.age = age;
     }
 
+    // Setter method for updating the first name of the person
     public void setFirstname(String firstname) {
         Firstname = firstname;
     }
