@@ -1,21 +1,21 @@
 package person.java;
 
-// This class represents a Person entity with attributes such as first name, last name, and age.
+//This class represents a Person entity with attributes such as first name, last name, and age.
 public class person {
 
-    // Private attributes to store the first name, last name, and age of a person
+    //Private attributes to store the first name, last name, and age of a person
     private String Firstname;
     private String LastName;
     private int age;
 
-    // Constructor to initialize a Person object with specified first name, last name, and age
+    //Constructor to initialize a Person object with specified first name, last name, and age
     public person(String Firstname, String LastName, int age){
         this.Firstname = Firstname;
         this.LastName = LastName;
         this.age = age;
     }
 
-    // Overridden toString method to represent the Person object as a string
+    //Overridden toString method to represent the Person object as a string
     public String toString(){
         return "name:" + Firstname + LastName + "Age:" + age;
     }
