@@ -1,14 +1,14 @@
 package person.java;
 
-// This class represents a collection of Person objects.
+//This class represents a collection of Person objects.
 public class collection {
-     // Array to store Person objects
+     //Array to store Person objects
      private person[] People;
 
-     // Maximum size allowed for the collection
+     //Maximum size allowed for the collection
      private static int MAX_SIZE = 200;
 
-     // Current size of the collection
+     //Current size of the collection
      private int Size;
 
      // Minimum value (not currently used or initialized)
