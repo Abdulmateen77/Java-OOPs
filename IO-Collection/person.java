@@ -20,29 +20,29 @@ public class person {
         return "name:" + Firstname + LastName + "Age:" + age;
     }
 
-    // Getters and setters for the private attributes
+    //Getters and setters for the private attributes
 
-    // Getter method for retrieving the first name of the person
+    //Getter method for retrieving the first name of the person
     public String getFirstname() {
         return Firstname;
     }
 
-    // Getter method for retrieving the last name of the person
+    //Getter method for retrieving the last name of the person
     public String getLastName() {
         return LastName;
     }
 
-    // Getter method for retrieving the age of the person
+    //Getter method for retrieving the age of the person
     public int getAge() {
         return age;
     }
 
-    // Setter method for updating the age of the person
+    //Setter method for updating the age of the person
     public void setAge(int age) {
         this.age = age;
     }
 
-    // Setter method for updating the first name of the person
+    //Setter method for updating the first name of the person
     public void setFirstname(String firstname) {
         Firstname = firstname;
     }
