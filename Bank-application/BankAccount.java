@@ -2,15 +2,15 @@ package bankaccount;
 
 public class BankAccount {
 
-    // Class to represent a simple bank account
+    //Class to represent a simple bank account
 
-    // Fields to store account information
+    //Fields to store account information
     private int Accountnumber;          // Account number
     private int sortCode;               // Sort code
     private String accountHoldername;   // Account holder's name
     private int balance;                // Current balance
 
-    // Constructor to initialize the BankAccount
+    //Constructor to initialize the BankAccount
     public BankAccount(String accountHoldername, int Accountnumber, int sortCode, int balance){
 
         // Initialize account information
