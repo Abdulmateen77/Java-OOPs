@@ -40,7 +40,7 @@ public class BankAccount {
         return balance;
     }
 
-    // Method to withdraw money from the account
+    //Method to withdraw money from the account
     public void withdrawMoney(int withdraw){
         if(balance <= 0){
             System.out.println("Low balance, please add money!");
