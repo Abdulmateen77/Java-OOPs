@@ -20,22 +20,22 @@ public class BankAccount {
         this.balance = balance;
     }
 
-    // Getter method for getting the account number
+    //Getter method for getting the account number
     public int getAccountnumber(){
         return Accountnumber;
     }
 
-    // Getter method for getting the account holder's name
+    //Getter method for getting the account holder's name
     public String getaccountHoldername(){
         return accountHoldername;
     }
 
-    // Method to deposit money into the account
+    //Method to deposit money into the account
     public void depositMoney(int addMoney){
         this.balance = balance + addMoney;
     }
 
-    // Method to check the current account balance
+    //Method to check the current account balance
     public int checkbalance(){
         return balance;
     }
