@@ -13,7 +13,7 @@ public class BankAccount {
     //Constructor to initialize the BankAccount
     public BankAccount(String accountHoldername, int Accountnumber, int sortCode, int balance){
 
-        // Initialize account information
+        //Initialize account information
         this.accountHoldername = accountHoldername;
         this.Accountnumber = Accountnumber;
         this.sortCode = sortCode;
