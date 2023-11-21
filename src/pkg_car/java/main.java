@@ -1,7 +1,7 @@
 // Package declaration for the car class
 package pkg_car.java;
 
-
+// Main class for car program
 public class main {
 
   // Main method
