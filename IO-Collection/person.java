@@ -32,7 +32,7 @@ public class person {
         return LastName;
     }
 
-    //Getter method for retrieving the age of the person
+    // Getter method for retrieving the age of the person
     public int getAge() {
         return age;
     }
