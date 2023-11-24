@@ -17,7 +17,7 @@ public class person {
 
     //Overridden toString method to represent the Person object as a string
     public String toString(){
-        return "name:" + Firstname + LastName + " Age:" + age;
+        return "name:" + FirstName + LastName + " Age:" + age;
     }
 
     //Getters and setters for the private attributes
