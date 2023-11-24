@@ -10,7 +10,7 @@ public class person {
 
     //Constructor to initialize a Person object with specified first name, last name, and age
     public person(String Firstname, String LastName, int age){
-        this.Firstname = Firstname;
+        this.FirstName = FirstName;
         this.LastName = LastName;
         this.age = age;
     }
@@ -24,7 +24,7 @@ public class person {
 
     //Getter method for retrieving the first name of the person
     public String getFirstname() {
-        return Firstname;
+        return FirstName;
     }
 
     //Getter method for retrieving the last name of the person
@@ -44,7 +44,7 @@ public class person {
 
     //Setter method for updating the first name of the person
     public void setFirstname(String firstname) {
-        Firstname = firstname;
+        FirstName = firstname;
     }
 
     // Setter method for updating the last name of the person
