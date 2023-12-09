@@ -32,7 +32,7 @@ public class person {
         return LastName;
     }
 
-    // Getter method for retrieving the age of the person
+    //Getter method for retrieving the age of the person
     public int getAge() {
         return age;
     }
@@ -47,7 +47,7 @@ public class person {
         FirstName = firstname;
     }
 
-    // Setter method for updating the last name of the person
+    //Setter method for updating the last name of the person
     public void setLastName(String lastName) {
         LastName = lastName;
     }
