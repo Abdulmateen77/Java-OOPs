@@ -20,10 +20,10 @@ public class collection {
      //Total count of elements in the collection (not currently used or initialized)
      private int total;
 
-     // Static variable representing the file name for object details (not currently used or initialized)
+     //Static variable representing the file name for object details (not currently used or initialized)
      private static String OBJFNAME = "";
 
-     // Constructor for the collection, initializes the People array with the specified max size
+     //Constructor for the collection, initializes the People array with the specified max size
      public collection(int max){
           People = new person(max); // (Note: It should be initialized as an array like 'new person[MAX_SIZE]')
      }
