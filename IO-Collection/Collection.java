@@ -14,10 +14,10 @@ public class collection {
      //Minimum value (not currently used or initialized)
      private int min;
 
-     // Maximum value (not currently used or initialized)
+     //Maximum value (not currently used or initialized)
      private int max;
 
-     // Total count of elements in the collection (not currently used or initialized)
+     //Total count of elements in the collection (not currently used or initialized)
      private int total;
 
      // Static variable representing the file name for object details (not currently used or initialized)
