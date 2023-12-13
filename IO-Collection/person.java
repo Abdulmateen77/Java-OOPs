@@ -1,6 +1,6 @@
 package person.java;
 
-//This class represents a Person entity with attributes such as first name, last name, and age.
+// This class represents a Person entity with attributes such as first name, last name, and age.
 public class person {
 
     //Private attributes to store the first name, last name, and age of a person
