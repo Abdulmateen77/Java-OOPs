@@ -28,8 +28,8 @@ public class collection {
           People = new person(max); // (Note: It should be initialized as an array like 'new person[MAX_SIZE]')
      }
 
-     // Method to read data from a file and populate the collection
+     //Method to read data from a file and populate the collection
      public void readfromfile(String filename){
-          // (To be implemented) Read data from the specified file and populate the collection
+          //(To be implemented) Read data from the specified file and populate the collection
      }
 }
