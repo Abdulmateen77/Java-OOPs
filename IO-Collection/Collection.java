@@ -25,7 +25,7 @@ public class collection {
 
      //Constructor for the collection, initializes the People array with the specified max size
      public collection(int max){
-          People = new person(max); // (Note: It should be initialized as an array like 'new person[MAX_SIZE]')
+          People = new person(max); //(Note: It should be initialized as an array like 'new person[MAX_SIZE]')
      }
 
      //Method to read data from a file and populate the collection
