@@ -19,7 +19,7 @@ public class main {
         //Printing the account holder's name
         System.out.println("Account Holder's Name: " + newaccount.getaccountHoldername());
 
-        // Depositing a large sum and printing the final balance
+        //Depositing a large sum and printing the final balance
         newaccount.depositMoney(100000);
         System.out.println("Final Balance after a large deposit: $" + newaccount.checkbalance());
     }
