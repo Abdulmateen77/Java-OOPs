@@ -15,7 +15,7 @@ public class person {
         this.age = age;
     }
 
-    // Overridden toString method to represent the Person object as a string
+    //Overridden toString method to represent the Person object as a string
     public String toString(){
         return "name:" + FirstName + LastName + " Age:" + age;
     }
