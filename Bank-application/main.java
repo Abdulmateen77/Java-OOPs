@@ -22,5 +22,6 @@ public class main {
         //Depositing a large sum and printing the final balance
         newaccount.depositMoney(100000);
         System.out.println("Final Balance after a large deposit: $" + newaccount.checkbalance());
+        
     }
 }
