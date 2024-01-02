@@ -46,7 +46,7 @@ public class BankAccount {
             System.out.println("Low balance, please add money!");
         }
         else if (this.balance < withdraw){
-            System.out.println("Insufficient funds, please enter a smaller amount.");
+            System.out.println(" Insufficient funds, please enter a smaller amount. ");
         }
         else {
             this.balance = balance - withdraw;
