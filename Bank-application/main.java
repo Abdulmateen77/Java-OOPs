@@ -2,7 +2,7 @@ package bankaccount;
 
 public class main {
     public static void main(String[] args) {
-        //Creating a new bank account
+        // Creating a new bank account
         BankAccount newaccount = new BankAccount("Abdul Mateen", 19064164,1234, 1000);
 
         // Printing the account number and initial balance
